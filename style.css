@@ -1,0 +1,454 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+body {
+  background: #8338ec;
+  font-family: "Silkscreen", cursive;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+.body-star {
+  background-image: url(./images/pngfind.com-moon-and-stars-png-1330382.png);
+  max-width: 100%;
+  height: 40rem;
+  position: fixed;
+}
+.header-main {
+  margin-top: 2rem;
+}
+.img-row-top {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.catjam {
+  margin-top: 2rem;
+  width: 9rem;
+  padding-left: 4rem;
+
+  background-image: url(./images/catjam-static.png);
+  height: 9rem;
+ 
+}
+.catjam:hover {
+  margin-top: 2rem;
+  padding-left: 4rem;
+  width: 9rem;
+
+  background-image: url(./images/catjam-active.gif);
+  height: 9rem;
+}
+.ratjam {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/ratjam-static.png);
+  height: 9rem;
+}
+.ratjam:hover {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/ratjam-active.gif);
+  height: 9rem;
+}
+.catpop {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/catpop-static.png);
+  height: 9rem;
+}
+.catpop:hover {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/popcat-active.gif);
+  height: 9rem;
+}
+.racjam {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/raccjam-static.png);
+  height: 9rem;
+}
+.racjam:hover {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/raccjam-active.gif);
+  height: 9rem;
+}
+.racceat {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/racceat-static.png);
+  height: 9rem;
+}
+.racceat:hover {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/racceat-active.gif);
+  height: 9rem;
+}
+
+.intro-container {
+  width: 100%;
+  min-width: 60rem;
+  padding: 2rem 0px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.intro-container p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-shadow: 2px 2px 0px #bb33c5;
+  color: #ff7575;
+}
+
+.h1-intro {
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 0px #ff7575;
+  color: #bb33c5;
+  animation: flashingText 4s infinite;
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+@keyframes flashingText {
+  0% {
+    color: #b95656;
+    text-shadow: 2px 2px 0px #bb33c5;
+  }
+  25% {
+    color: #3a86ff;
+    text-shadow: 2px 2px 0px #8338ec;
+  }
+  50% {
+    color: #fb5607;
+    text-shadow: 2px 2px 0px #ff006e;
+  }
+  75% {
+    color: #ff006e;
+    text-shadow: 2px 2px 0px #fb5607;
+  }
+  100% {
+    color: #b95656;
+    text-shadow: 2px 2px 0px #bb33c5;
+  }
+}
+
+.intro-p {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.play-me {
+  text-align: center;
+
+  width: 100%;
+  min-width: 60rem;
+  padding: 2rem 0px;
+  position: relative;
+  text-align: center;
+}
+.play-me__h2 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 0px #ff7575;
+  color: #bb33c5;
+}
+.game-button {
+  text-align: center;
+}
+
+.play-button {
+  text-shadow: 2px 2px 0px #b95656;
+}
+.play-button:hover {
+  color: #b95656;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-p {
+  font-size: 60%;
+  text-transform: lowercase;
+}
+
+@media only screen and (max-width: 890px) {
+  .img-row-top {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+  }
+
+  .content-container {
+    padding-right: 2rem;
+    display: flex;
+    text-align: center;
+    text-shadow: 2px 2px 0px #bb33c5;
+    color: #ff7575;
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #8338ec;
+  font-family: "Silkscreen", cursive;
+  text-transform: uppercase;
+  height: 100vh;
+}
+
+.body-star {
+  background-image: url(./images/pngfind.com-moon-and-stars-png-1330382.png);
+  object-fit: fill;
+  height: 100vh;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.intro-container p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-shadow: 2px 2px 0px #bb33c5;
+  color: #ff7575;
+}
+
+.h1-intro {
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 0px #ff7575;
+  color: #bb33c5;
+  animation: flashingText 4s infinite;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.play-me__h2 {
+  text-align: center;
+  line-height: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 0px #ff7575;
+  color: #bb33c5;
+}
+
+.play-button {
+  text-shadow: 2px 2px 0px #b95656;
+}
+.play-button:hover {
+  color: #b95656;
+}
+.container-footer {
+  font-size: 0.8rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes flashingText {
+  0% {
+    color: #b95656;
+    text-shadow: 2px 2px 0px #bb33c5;
+  }
+  25% {
+    color: #3a86ff;
+    text-shadow: 2px 2px 0px #8338ec;
+  }
+  50% {
+    color: #fb5607;
+    text-shadow: 2px 2px 0px #ff006e;
+  }
+  75% {
+    color: #ff006e;
+    text-shadow: 2px 2px 0px #fb5607;
+  }
+  100% {
+    color: #b95656;
+    text-shadow: 2px 2px 0px #bb33c5;
+  }
+}
+.img-row-top {
+  display: flex;
+  justify-content: center;
+}
+
+.ratjam {
+  margin-top: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/ratjam-static.png);
+  height: 9rem;
+}
+
+.catpop {
+  margin-top: 2rem;
+  width: 9rem;
+
+  background-image: url(./images/catpop-static.png);
+  height: 9rem;
+}
+
+.racjam {
+  margin-top: 2rem;
+  width: 9rem;
+  padding-right: 6rem;
+  background-image: url(./images/raccjam-static.png);
+  height: 9rem;
+}
+
+@media only screen and (min-width: 820px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .img-row-top {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+  }
+  .catjam {
+    margin-top: 2rem;
+    width: 10rem;
+    padding-left: 6rem;
+    padding-right: 3rem;
+    background-image: url(./images/catjam-static.png);
+    height: 9rem;
+  }
+  .catjam:hover {
+    margin-top: 2rem;
+    padding-left: 4rem;
+    width: 10rem;
+    height: 9rem;
+    background-image: url(./images/catjam-active.gif);
+  }
+  .ratjam {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    width: 10rem;
+    height: 9rem;
+    background-image: url(./images/ratjam-static.png);
+  }
+  .ratjam:hover {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    height: 19rem;
+    background-image: url(./images/ratjam-active.gif);
+  }
+  .catpop {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    height: 10rem;
+    background-image: url(./images/catpop-static.png);
+  }
+  .catpop:hover {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    height: 9rem;
+    background-image: url(./images/popcat-active.gif);
+  }
+  .racjam {
+    margin-top: 2rem;
+    padding-left: 4rem;
+    width: 10rem;
+    height: 9rem;
+    background-image: url(./images/raccjam-static.png);
+  }
+  .racjam:hover {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    height: 9rem;
+    background-image: url(./images/raccjam-active.gif);
+  }
+  .racceat {
+    background-image: url(./images/racceat-static.png);
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    height: 9rem;
+  }
+  .racceat:hover {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    background-image: url(./images/racceat-active.gif);
+    height: 9rem;
+  }
+  .intro-container p {
+    font-size: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .h1-intro {
+    width: 100%;
+    font-size: 4rem;
+  }
+  .play-me__h2 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-row-top {
+    padding-top: 0;
+  }
+}
